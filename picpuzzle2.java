@@ -6,12 +6,10 @@ class  picpuzzle2 extends JFrame implements ActionListener {
     JButton b1, b2, b3, b4, b5, b6, b7, b8, b9, sample, starB;
     Icon star;
     Icon ic0 = new ImageIcon("C:\\Users\\epsi5\\OneDrive\\Desktop\\Java Games\\images\\9.jpg");
-    Icon ic10 = new ImageIcon("");
-    Icon ic20 = new ImageIcon("");
-    Icon samicon1 = new ImageIcon("C:\\Users\\epsi5\\OneDrive\\Desktop\\Java Games\\images\\epsihazee207.jpg");
-    Icon samicon2 = new ImageIcon("");
-    Icon samicon3 = new ImageIcon("");
+  
     
+    Icon samicon1 = new ImageIcon("C:\\Users\\epsi5\\OneDrive\\Desktop\\Java Games\\images\\epsihazee207.jpg");
+   
     Icon ic1 = new ImageIcon("C:\\Users\\epsi5\\OneDrive\\Desktop\\Java Games\\images\\1.jpg");
     Icon ic2 = new ImageIcon("C:\\Users\\epsi5\\OneDrive\\Desktop\\Java Games\\images\\2.jpg");
     Icon ic3 = new ImageIcon("C:\\Users\\epsi5\\OneDrive\\Desktop\\Java Games\\images\\3.jpg");
@@ -22,24 +20,7 @@ class  picpuzzle2 extends JFrame implements ActionListener {
     Icon ic8 = new ImageIcon("C:\\Users\\epsi5\\OneDrive\\Desktop\\Java Games\\images\\8.jpg");
     Icon ic9 = new ImageIcon("C:\\Users\\epsi5\\OneDrive\\Desktop\\Java Games\\images\\9.jpg");
     
-    Icon ic11 = new ImageIcon("");
-    Icon ic12 = new ImageIcon("");
-    Icon ic13 = new ImageIcon("");
-    Icon ic14 = new ImageIcon("");
-    Icon ic15 = new ImageIcon("");
-    Icon ic16 = new ImageIcon("");
-    Icon ic17 = new ImageIcon("");
-    Icon ic19 = new ImageIcon("");
     
-    Icon ic21 = new ImageIcon("");
-    Icon ic22 = new ImageIcon("");
-    Icon ic23 = new ImageIcon("");
-    Icon ic24 = new ImageIcon("");
-    Icon ic25 = new ImageIcon("");
-    Icon ic26 = new ImageIcon("");
-    Icon ic27 = new ImageIcon("");
-    Icon ic28 = new ImageIcon("");
-    Icon ic29 = new ImageIcon("");
 
     picpuzzle2() {
         super("pic puzzle");
@@ -128,13 +109,7 @@ class  picpuzzle2 extends JFrame implements ActionListener {
         if (s1 == samicon3) {
             sample.setIcon(samicon1);
             setIcons(new Icon[]{ic1, ic2, ic3, ic4, ic5, ic6, ic7, ic8, ic9}, ic0);
-        } else if (s1 == samicon1) {
-            sample.setIcon(samicon2);
-            setIcons(new Icon[]{ic11, ic12, ic13, ic14, ic15, ic16, ic17, ic18, ic19}, ic10);
-        } else {
-            sample.setIcon(samicon3);
-            setIcons(new Icon[]{ic21, ic22, ic23, ic24, ic25, ic26, ic27, ic28, ic29}, ic20);
-        }
+        } 
     }
 
     private void setIcons(Icon[] icons, Icon starIcon) {
